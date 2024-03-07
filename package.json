@@ -1,0 +1,24 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build:clean": "rimraf build; mkdir -p build",
+    "build": "yarn build:clean && webpack --node-env=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-typescript": "^7.23.3",
+    "typescript": "^5.4.2",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "rimraf": "^5.0.5"
+  },
+  "dependencies": {
+    "@ultraq/icu-message-formatter": "^0.14.2"
+  }
+}

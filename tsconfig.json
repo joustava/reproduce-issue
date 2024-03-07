@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "./dist",
+    "noEmit": true,
+    "isolatedModules": true,
+    "rootDir": "./",
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    "lib": ["dom", "es6", "ES2022"],
+    "module": "es6",
+    "esModuleInterop": true,
+    "incremental": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "inlineSources": true,
+
+    "sourceRoot": "/",
+    "strict": true,
+
+    "target": "es6",
+
+    "moduleResolution": "node",
+    "typeRoots": ["./node_modules/@types", "./types"]
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules", "build", "webpack"]
+}
